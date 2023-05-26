@@ -1,0 +1,276 @@
+body {
+    font-family: cursive;
+    /* height: 1000000px; */
+    background-color: #dee7f2;
+}
+
+:root {
+    --color: #1F3C88;
+    --hcolor: #5893D4;
+}
+
+.user-pic {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+
+/*  style the menue drop dwon list for the user */
+.sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 1%;
+    width: 18%;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 300px;
+    max-width: 380px;
+}
+
+/* #ceddef98 */
+.sub-menu {
+    background: rgba(31, 61, 137, 0.4);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.sub-menu form {
+    background-color: #ceddef00;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.sub-menu .user-info h4 {
+    font-weight: 300;
+    background: #1F3C88;
+    border-radius: 12px;
+}
+
+.user-info img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sub-menu hr {
+    border: 0;
+    height: 3px;
+    width: 100%;
+    background: #ceddef;
+    margin: 15px 0 10px;
+}
+
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #5894d4b8;
+    margin: 12px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.sub-menu-link p {
+    width: 100%;
+    color: #070D59;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 3px;
+
+}
+
+.sub-menu-link img {
+    width: 40px;
+    background-color: #ceddef98;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+.sub-menu-link span {
+    font: size 22px;
+    transition: transform 0.5s;
+}
+
+.sub-menu-link {
+    background-color: hsla(211, 59%, 59%, 0.5);
+    border: none;
+    margin-right: 20px;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+
+}
+
+.sub-menu-link:hover {
+    box-shadow: 0 0 5px 0 #CEDDEF inset, 0 0 10px 2px #CEDDEF;
+    color: #070D59;
+}
+
+.sub-menu-link:hover span {
+    transform: translateX(5px);
+}
+
+.sub-menu-link:hover p {
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: var(--color);
+    height: 50px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.btn {
+    background-color: #5893D4;
+    border: none;
+    color: #070D59;
+
+}
+
+
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+    color: var(--hcolor);
+}
+
+p {
+    color: white;
+}
+
+#signup {
+    background-color: #5893D4;
+    border: none;
+    margin-right: 20px;
+    color: #fff;
+}
+
+#login {
+    background-color: #5893D4;
+    border: none;
+    margin-right: 20px;
+    color: #fff;
+}
+
+
+.carousel-inner {
+    position: relative;
+}
+
+
+#img-button {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+
+.na .features .container .main-titel {
+    color: white;
+    /* text-align: center; */
+    /* padding-top: 20px; */
+}
+
+.main-titel::after {
+    content: '';
+    width: 190px;
+    height: 2px;
+    background-color: #A6B1E1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.our-team .box h4 {
+    background-color: #A6B1E1;
+}
+
+
+.our-team .imj-fluid {
+    height: 300px;
+}
+
+.footer {
+    background-color: #1F3C88;
+}
+
+.footer img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#email {
+    background-color: #5893D4;
+    border: none;
+}
+
+.footer .copyright>span {
+    color: #5893D4;
+}
+
+.footer .copyright div span {
+    color: white;
+}
+
+.footer svg {
+    width: 30px;
+    height: 30px;
+}
+
+/* 
+.org {
+    color: #5893D4;
+    font-size: x-large;
+} */
+
+/* .org:hover {
+    color: #CEDDEF;
+    font-size: xx-large;
+} */
+
+.box {
+    max-width: 400px;
+    width: 100%;
+
+}
+
+
+.card {
+    width: 30%;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #c7d6e9a1;
+
+}
+
+/* #check {
+    display: none;
+} */
+
+.btn:hover,
+.btn:focus .btn:active {
+    box-shadow: 0 0 5px 0 #CEDDEF inset, 0 0 10px 2px #CEDDEF;
+    color: #070D59;
+    background-color: aquamarine;
+}

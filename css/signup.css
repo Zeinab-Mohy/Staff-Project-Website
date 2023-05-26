@@ -1,0 +1,135 @@
+*{
+    margin: 0 ;
+    padding:0 ; 
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(to bottom, #0072ff, #00c6ff);
+}
+.container
+{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background: #fff;
+    padding :30px;
+    margin : 0 15px;
+    border-radius: 6 px;
+    box-shadow: 0 5px 10px rgba( 0, 0,0 0.1);
+
+}
+.container .title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333; 
+    position: relative;
+
+}
+.container .title::before {
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+height: 3px;
+width: 30px;
+background:  linear-gradient(to bottom, #0072ff, #00c6ff);
+}
+.container form {
+    position: relative;
+    min-height: 490x;
+    margin-top: 16px;
+    background-color: #fff ;
+
+}
+
+.container form .user-details{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    margin: 20px 0 12px 0;
+    flex-wrap: wrap;
+
+}
+
+form .user-details .input-box{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 15px);  
+    margin: 4px 0;
+    /* width: calc(100% /2 - 20px); */
+
+}
+.user-details .input-box .details{
+    font-size: 14px;
+    font-weight: 500;
+    color :#2e2e2e ;
+    width: 140px;
+    height: 10px;
+}
+
+.user-details .input-box  input, select
+{
+    height:  40px;
+    margin: 8px 0;
+    font-size: 14px;
+    padding: 0 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding:0 15px;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom-width:2px;
+} 
+.user-details .input-box input , select:focus, 
+.user-details .input-box input , select:valid
+{
+    border-color: #00c6ff;
+}
+
+form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+form .gender-details .category
+{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+form .gender-details .category label
+{
+    display: flex;
+    align-items: center;
+}
+
+form .button
+{
+    height: 45px;
+   
+}
+form .button input{
+    display: flex;
+    height:45px ;
+    width: 100%;
+    max-width :200px;
+    align-items: center ;
+    justify-content: center;
+    outline: none;
+    color: #fff;
+    border :none ; 
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background:  linear-gradient(to bottom, #0072ff, #00c6ff);
+    cursor: pointer;
+
+}
