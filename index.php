@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="main">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link p-2 p-lg-3 " href="index_main.php" target="_blank">HOME</a>
+                            <a class="nav-link p-2 p-lg-3 " href="index.php" target="_blank">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link p-2 p-lg-3 " href="#s">SEARCH</a>
